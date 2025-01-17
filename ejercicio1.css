@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#titulo{
+    font-size: 300%;
+    text-align: left;
+    margin-left: 3%;
+
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+}
+.columna-izquierda{
+    margin-left:5%;
+    flex: 1;
+
+}
+input{
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    padding-right: 50%;
+    padding-bottom: 5%;
+}
+footer{
+
+    text-align: center;
+    background-color: red;
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+.columna-derecha{
+    flex: 1;
+}
+
+td {
+    height: 2%;
+    width: 2%;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
